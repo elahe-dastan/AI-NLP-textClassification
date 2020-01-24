@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13392320-3562-45e5-b45a-dd530cfa8cdf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Wn4rqC0reUcHf1mgS8gOMYhn3d" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RunManager" selected="Python.Main">
+    <configuration name="Foo" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="NLP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Foo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NLP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NLP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Train" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13392320-3562-45e5-b45a-dd530cfa8cdf" name="Default Changelist" comment="" />
+      <created>1579772226795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579772226795</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="836" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579781034652">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="836" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579781034652" />
+    <state x="1189" y="303" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579782093690">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1189" y="303" width="524" height="507" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1579782093690" />
+    <state x="476" y="27" key="#xdebugger.evaluate" timestamp="1579892115068">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="476" y="27" key="#xdebugger.evaluate/67.27.1853.1053@67.27.1853.1053" timestamp="1579892115068" />
+    <state width="959" height="302" key="GridCell.Tab.0.bottom" timestamp="1579892719160">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="959" height="302" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1579892719160" />
+    <state width="959" height="302" key="GridCell.Tab.0.center" timestamp="1579892719160">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="959" height="302" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1579892719160" />
+    <state width="959" height="302" key="GridCell.Tab.0.left" timestamp="1579892719159">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="959" height="302" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1579892719159" />
+    <state width="959" height="302" key="GridCell.Tab.0.right" timestamp="1579892719160">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="959" height="302" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1579892719160" />
+    <state width="959" height="302" key="GridCell.Tab.1.bottom" timestamp="1579892719161">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="959" height="302" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1579892719161" />
+    <state width="959" height="302" key="GridCell.Tab.1.center" timestamp="1579892719160">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="959" height="302" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1579892719160" />
+    <state width="959" height="302" key="GridCell.Tab.1.left" timestamp="1579892719160">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="959" height="302" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1579892719160" />
+    <state width="959" height="302" key="GridCell.Tab.1.right" timestamp="1579892719160">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="959" height="302" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1579892719160" />
+    <state x="913" y="188" width="1007" height="737" key="SettingsEditor" timestamp="1579772704617">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="913" y="188" width="1007" height="737" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1579772704617" />
+    <state width="463" height="526" key="XDebugger.FullValuePopup" timestamp="1579881884271">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="463" height="526" key="XDebugger.FullValuePopup/67.27.1853.1053@67.27.1853.1053" timestamp="1579881884271" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="line" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
