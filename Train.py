@@ -1,41 +1,32 @@
-import re
 from Model import Model
+
+
+def write_to_file(file_name, mode, data):
+    f = open(file_name, mode)
+    f.write(data)
+    f.close()
 
 
 class Train:
     def __init__(self, train_corpus):
         self.titles = []
-        self.train_corpus_file_name = train_corpus + ".txt"
-        f = open(self.train_corpus_file_name, "r")
+        train_corpus_file_name = train_corpus + ".txt"
+        f = open(train_corpus_file_name, mode="r", encoding='utf-8-sig')
         self.corpus = f.read()
         f.close()
 
     def group_titles(self):
         global file_name
-        titles_with_bug = set(re.findall(r'\b(\w+رررررررررر)\b', self.corpus))
-        # there will be a bug with title adab va honar
-        # fix the bug in an ugly way just for now
+        different_texts = self.corpus.split('\n')
         titles = []
-        for t in titles_with_bug:
-            if t == "هنررررررررررر":
-                t = "ادب و هنررررررررررر"
-            titles.append(t)
-
-        for title in titles:
+        for text in different_texts:
+            title, data = text.split("@@@@@@@@@@ ")
             file_name = title + ".txt"
-            f = open(file_name, "w+")
-            f.close()
-
-        f = open(self.train_corpus_file_name, "r")
-        for line in f:
-            #honar has a bug
-            for title in titles:
-                if line.startswith(title):
-                    file_name = title + ".txt"
-            g = open(file_name, "a+")
-            g.write(line)
-            g.close()
-        f.close()
+            if title in titles:
+                write_to_file(file_name, "a+", data)
+            else:
+                write_to_file(file_name, "w+", data)
+                titles.append(title)
         self.titles = titles
 
     def model_per_class(self):

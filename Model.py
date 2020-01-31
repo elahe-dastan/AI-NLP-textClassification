@@ -3,22 +3,24 @@ class Model:
         self.each_word_number_of_occurrences_dict = {}
         self.each_bi_word_number_of_occurrences_dict = {}
         file_name = corpus + ".txt"
-        f = open(file_name, "r")
+        f = open(file_name, mode="r", encoding='utf-8-sig')
         self.corpus = f.read()
         f.close()
 
-        self.unigram_model_file_name = "unigram_model_of_" + file_name
-        f = open(self.unigram_model_file_name, "w+")
-        f.close()
+        # If the unigram and bigram model were needed in a file uncomment the lines below
 
-        self.bigram_model_file_name = "bigram_model_of_" + file_name
-        f = open(self.bigram_model_file_name, "w+")
-        f.close()
+        # self.unigram_model_file_name = "unigram_model_of_" + file_name
+        # f = open(self.unigram_model_file_name, "w+")
+        # f.close()
+        #
+        # self.bigram_model_file_name = "bigram_model_of_" + file_name
+        # f = open(self.bigram_model_file_name, "w+")
+        # f.close()
 
     def model(self):
         all_words = self.corpus.split()
-        known_words = set(all_words)
-        for word in known_words:
+        known_words = set(all_words) # O(n)
+        for word in known_words: # O(n)
             self.each_word_number_of_occurrences_dict[word] = 0
         unigram_model_dictionary = self.unigram_model(known_words, all_words)
         all_bi_words = list(map(' '.join, zip(all_words[:-1], all_words[1:])))
@@ -35,10 +37,10 @@ class Model:
         # which are related to writing the result to file
         number_of_words = len(all_words)
         each_word_probability_dict = {}
-        for word in all_words:
-            self.each_word_number_of_occurrences_dict[word] = self.each_word_number_of_occurrences_dict[word] + 1
+        for word in all_words: # O(n)
+            self.each_word_number_of_occurrences_dict[word] += 1
         # f = open(self.unigram_model_file_name, "a+")
-        for word in known_words:
+        for word in known_words: # O(n)
             probability = self.each_word_number_of_occurrences_dict[word] / number_of_words
             each_word_probability_dict[word] = probability
             #f.write(word + " " + str(probability) + "\n")
@@ -51,7 +53,7 @@ class Model:
         #f = open(self.bigram_model_file_name, "a+")
         each_bi_word_probability_dict = {}
         for bi_word in all_bi_words:
-            self.each_bi_word_number_of_occurrences_dict[bi_word] = self.each_bi_word_number_of_occurrences_dict[bi_word] + 1
+            self.each_bi_word_number_of_occurrences_dict[bi_word] += 1
         for bi_word in known_bi_words:
             # we know that function list.count in python simply iterates over all the elements
             # of the list and it's time complexity is O(n) and we also know that searching in a
